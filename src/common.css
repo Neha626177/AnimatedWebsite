@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100&family=Josefin+Sans&family=Poppins:wght@100;500&family=Raleway:wght@100;300;400&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'Roboto', sans-serif;
+
+}
+#header {
+    height: 100vh;
+    /* overflow-x: hidden; */
+}
+#header{
+    height: 100vh;
+}
+#header h1{
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+.button{
+     border-radius: 20px;
+}
+h2{
+    opacity: 0.7;
+    
+}
+.brand{
+    color: rgb(32, 134, 237);
+}
+.img-animated-fluid{
+   animation: com infinite 5s ;
+ 
+}
+@keyframes com{
+    50%{
+        transform: translateY(10px);
+
+    }
+   
+    
+}

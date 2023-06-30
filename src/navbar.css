@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100&family=Josefin+Sans&family=Poppins:wght@100;500&family=Raleway:wght@100;300;400&family=Roboto&display=swap');
+
+.navWrapper{
+    overflow-x: hidden;
+}
+.navbar-brand{
+    font-size: 1.9rem;
+    color: #565387;
+}
+.navbar a{
+    font-size: 1.3rem;
+    text-decoration:capitalize;
+}
+.menu_active{
+    font-weight: bold;
+    border-bottom: 1px solid #565387;
+}
+.navbar a:hover{
+    color: #3498db;
+}
